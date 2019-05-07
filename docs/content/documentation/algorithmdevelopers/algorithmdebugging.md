@@ -17,6 +17,7 @@ The Eclipse Layout Kernel SDK provides two views built specifically for debuggin
 The layout graph view registers with the `DiagramLayoutEngine` to be notified whenever a layout run finishes and displays the layout graph exactly as it comes out of the layout algorithm, without any modifications applied. Use this view to check if your algorithm works and if you got the coordinate system right.
 
 Note that the layout graph view allows you to export the displayed graph as a PNG image file. It also allows you to display debug graph files (see below).
+You can also reload an already loaded file. For example, if you apply changes on this file. 
 
 Open the layout graph view by clicking _Window_ -> _Show View_ -> _Other_ and select _Layout Graph_ from the _Eclipse Diagram Layout_ category.
 
