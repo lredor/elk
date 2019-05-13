@@ -16,7 +16,7 @@ import org.eclipse.jface.preference.IPreferenceStore;
 /**
  * An action for reloading a KGraph and performing layout on it.
  */
-public class ReloadGraphAction extends LoadGraphAction {
+public class ReloadGraphAction extends LoadGraphAction2 {
 
     /** identifier string for this action. */
     private static final String ACTION_ID = "org.eclipse.elk.debug.reloadGraph";

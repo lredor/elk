@@ -89,7 +89,7 @@ public class LayoutGraphView extends ViewPart {
     public void createPartControl(final Composite parent) {
         // create actions in the view toolbar
         IToolBarManager toolBarManager = getViewSite().getActionBars().getToolBarManager();
-        toolBarManager.add(new LoadGraphAction());
+        toolBarManager.add(new LoadGraphAction2());
         toolBarManager.add(new ReloadGraphAction());
         toolBarManager.add(new ImageExportAction(this));
 
